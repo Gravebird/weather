@@ -18,8 +18,11 @@ remains up after that.
 2. Move or copy the file "weather.service" into your "/etc/systemd/system" directory.
 3. Move or copy the file "weather.timer" into your "/etc/systemd/system" directory.
 4. Run the following commands:
+
 	sudo systemctl enable weather.service
+	
 	sudo systemctl enable weather.timer
+	
 	sudo systemctl daemon-reload
 
 ========Authors========
