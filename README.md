@@ -15,9 +15,13 @@ remains up after that.
 ===================
 
 1. Move or copy the file "wthr" into your bin directory, in your home directory.
-2. Move or copy the file "weather.service" into your "/etc/systemd/system" directory.
-3. Move or copy the file "weather.timer" into your "/etc/systemd/system" directory.
-4. Run the following commands:
+2. Inside of your bin directory, type the following command:
+
+	chmod 777 wthr
+	
+4. Move or copy the file "weather.service" into your "/etc/systemd/system" directory.
+5. Move or copy the file "weather.timer" into your "/etc/systemd/system" directory.
+6. Run the following commands:
 
 	sudo systemctl enable weather.service
 	
