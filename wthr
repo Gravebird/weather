@@ -1,0 +1,5 @@
+#!/bin/bash
+
+curl wttr.in > motd
+
+exit 0;
