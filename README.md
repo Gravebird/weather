@@ -5,15 +5,13 @@ This project will, once installed, find a weather report for you and store it in
 The weather report will be checked 5 minutes after your system boots up, and then every hour it
 remains up after that.
 
-===================
-Getting Started
+========Getting Started========
 ===================
 
 1. Clone this repository into your linux machine, preferably somewhere in your home directory.
 2. Create a bin directory in your home directory, if one does not already exist.
 
-===================
-Installing
+========Installing========
 ===================
 
 1. Move or copy the file "wthr" into your bin directory, in your home directory.
@@ -24,8 +22,7 @@ Installing
 	sudo systemctl enable weather.timer
 	sudo systemctl daemon-reload
 
-===================
-Authors
+========Authors========
 ===================
 
 Bryan Rainbow
